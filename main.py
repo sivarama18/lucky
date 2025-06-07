@@ -1,8 +1,12 @@
 import os
+import eel 
 
-import eel
+from engine.features import *
+from engine.command import *
 
 eel.init("front")
+
+playAssistantSound()
 
 os.system('start msedge.exe --app="http://localhost:8000/index.html"')
 
